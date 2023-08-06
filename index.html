@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolu | Animated Portifoilo</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/animate.css">
+    <link rel="stylesheet" href="Css/ani.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="text">
+        <div data-aos="fade-in" data-aos-duration="1000">
+            Hi, i am Toluwalope S. Oyelola
+        </div>
+
+        <div data-aos="slide-left" class="i">
+            I am into <span id="element"></span>
+        </div>
+        <div class="i" data-aos="fade-up">
+            I'm <span class="years">14</span> years old
+        </div>
+        <div class="i" data-aos="flip-up">
+            I am a resident and citizen of Nigeria
+        </div>
+        <div class="i" data-aos="fade-down">
+            Also i am a student.
+        </div>
+        <div class="i" data-aos="fade-up-right">
+            This is just the animated part of my website.
+        </div>
+        <div class="i" data-aos="fade-up-left">
+            The none animated version will be out soon
+        </div>
+    </div>
+    
+        <p>Copyright to Tolu and Aos.js</p>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://remino.net/scrollerful/script-d11f5e8b.js"></script>
+    <script>
+                var typed = new Typed('#element', {
+                strings: ['Frontend Development', 'Backend Development', 'Web Designing', 'Web Development'],
+                typeSpeed: 50,
+                loop: true,
+                 });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
